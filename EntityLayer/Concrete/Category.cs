@@ -10,5 +10,6 @@ namespace EntityLayer.Concrete
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
+        public ICollection<Blog> Blogs { get; set; }
     }
 }
