@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<EntityLayer.Concrete.Category>
 @{
-    Layout =null;
+    Layout = null;
 }
 
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width-device-width"/>
+    <meta name="viewport" content="width-device-width" />
     <title>Index</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <th>ID</th>
                 <th>Category Name</th>
             </tr>
-            @foreach(var item in Model)
+            @foreach (var item in Model)
             {
                 <tr>
                     <td>@item.CategoryID</td>
