@@ -188,6 +188,12 @@
     <Content Include="miniblog\images\person_3.jpg" />
     <Content Include="miniblog\images\person_4.jpg" />
     <Content Include="miniblog\images\person_5.jpg" />
+    <Content Include="miniblog\images\pictures\0.png" />
+    <Content Include="miniblog\images\pictures\1.png" />
+    <Content Include="miniblog\images\pictures\2.jpg" />
+    <Content Include="miniblog\images\pictures\3.jpg" />
+    <Content Include="miniblog\images\pictures\4.jpg" />
+    <Content Include="miniblog\images\pictures\5.png" />
     <Content Include="miniblog\index.html" />
     <Content Include="miniblog\js\aos.js" />
     <Content Include="miniblog\js\bootstrap-datepicker.min.js" />
