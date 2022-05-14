@@ -53,6 +53,12 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -144,6 +150,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -190,10 +197,16 @@
     <Content Include="miniblog\images\person_5.jpg" />
     <Content Include="miniblog\images\pictures\0.png" />
     <Content Include="miniblog\images\pictures\1.png" />
+    <Content Include="miniblog\images\pictures\10.jpg" />
+    <Content Include="miniblog\images\pictures\11.jpg" />
     <Content Include="miniblog\images\pictures\2.jpg" />
     <Content Include="miniblog\images\pictures\3.jpg" />
     <Content Include="miniblog\images\pictures\4.jpg" />
     <Content Include="miniblog\images\pictures\5.png" />
+    <Content Include="miniblog\images\pictures\6.jpeg" />
+    <Content Include="miniblog\images\pictures\7.jpg" />
+    <Content Include="miniblog\images\pictures\8.png" />
+    <Content Include="miniblog\images\pictures\9.png" />
     <Content Include="miniblog\index.html" />
     <Content Include="miniblog\js\aos.js" />
     <Content Include="miniblog\js\bootstrap-datepicker.min.js" />
