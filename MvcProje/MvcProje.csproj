@@ -208,6 +208,7 @@
     <Content Include="miniblog\images\pictures\7.jpg" />
     <Content Include="miniblog\images\pictures\8.png" />
     <Content Include="miniblog\images\pictures\9.png" />
+    <Content Include="miniblog\images\user.jpeg" />
     <Content Include="miniblog\index.html" />
     <Content Include="miniblog\js\aos.js" />
     <Content Include="miniblog\js\bootstrap-datepicker.min.js" />
