@@ -183,12 +183,15 @@
     <Content Include="miniblog\fonts\icomoon\fonts\icomoon.svg" />
     <Content Include="miniblog\fonts\icomoon\Read Me.txt" />
     <Content Include="miniblog\fonts\icomoon\style.css" />
+    <Content Include="miniblog\images\aboutus_inpage1.jpg" />
+    <Content Include="miniblog\images\aboutus_inpage2.jpg" />
     <Content Include="miniblog\images\cebupacific-booking.jpg" />
     <Content Include="miniblog\images\hero_1.jpg" />
     <Content Include="miniblog\images\img_1.jpg" />
     <Content Include="miniblog\images\img_2.jpg" />
     <Content Include="miniblog\images\img_3.jpg" />
     <Content Include="miniblog\images\img_4.jpg" />
+    <Content Include="miniblog\images\img_aboutus.jpg" />
     <Content Include="miniblog\images\img_v_1.jpg" />
     <Content Include="miniblog\images\img_v_2.jpg" />
     <Content Include="miniblog\images\person_1.jpg" />
@@ -196,6 +199,7 @@
     <Content Include="miniblog\images\person_3.jpg" />
     <Content Include="miniblog\images\person_4.jpg" />
     <Content Include="miniblog\images\person_5.jpg" />
+    <Content Include="miniblog\images\person_6.png" />
     <Content Include="miniblog\images\pictures\0.png" />
     <Content Include="miniblog\images\pictures\1.png" />
     <Content Include="miniblog\images\pictures\10.jpg" />

@@ -90,9 +90,14 @@ namespace MvcProje.Controllers
             var BlogDetailsList = bm.GetBlogByID(id);
             return PartialView(BlogDetailsList);
         }
-        public ActionResult BlogByCategory()
+        public ActionResult BlogByCategory(int id)
         {
-            return View();
+            var BlogListByCategory = bm.GetBlogByCategory(id);
+            var CategoryName = bm.GetBlogByCategory(id).Select(y => y.Category.CategoryName).FirstOrDefault();
+            ViewBag.CategoryName = CategoryName;
+            var CategoryDescription = bm.GetBlogByCategory(id).Select(y => y.Category.CategoryDescription).FirstOrDefault();
+            ViewBag.CategoryDescription = CategoryDescription;
+            return View(BlogListByCategory);
         }
 
 

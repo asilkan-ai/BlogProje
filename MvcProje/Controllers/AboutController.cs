@@ -12,9 +12,11 @@ namespace MvcProje.Controllers
 
         // GET: About
         AboutManager abm = new AboutManager();
+
         public ActionResult Index()
         {
-            return View();
+            var aboutcontent = abm.GetAll();
+            return View(aboutcontent);
         }
         public PartialViewResult Footer()
         {
@@ -23,7 +25,9 @@ namespace MvcProje.Controllers
         }
         public PartialViewResult MeetTheTeam()
         {
-            return PartialView();
+            AuthorManager author_m = new AuthorManager();
+            var authorlist = author_m.GetAll();
+            return PartialView(authorlist);
         }
     }
 }
