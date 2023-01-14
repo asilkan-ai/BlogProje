@@ -1,4 +1,4 @@
-# BlogProje
+# Blog Projesi
 ### .NET MVC ile çok katmanlı blog projesi
 
 Bu projede çok katmanlı dinamik bir blog projesi amaçlanmıştır. Yazar kaydı ile yazarlar blog paylaşabilir. Belirli kategorilerde içerik paylaşımı içeriklere yorum yapılması mümkündür. Bu projeye dair görseller aşağıda verilmiştir.
